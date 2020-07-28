@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageToAndHireServiceman">
+
+    <LinearLayout
+        android:id="@+id/FirstPart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/icon_person"
+            app:civ_border_color="#FF000000"
+
+            app:civ_circle_background_color="#FFEFE4E4" />
+
+        <TextView
+            android:id="@+id/viewServicemanName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Debasish Mula"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/viewServicemanPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="+917001538723"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/secondPart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/FirstPart"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="20dp"
+            android:text="Having Skills"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="19dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/gradient">
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/viewServicemanSkill1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:text=""
+            android:textColor="#FF1E2A47"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:id="@+id/ls1"
+            android:layout_width="1dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="5dp"
+            android:background="#FF1E2A47"
+            android:orientation="vertical"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/viewServicemanSkill2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=""
+            android:textColor="#FF1E2A47"
+            android:textSize="17dp" />
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/viewServicemanSkill3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text=""
+                    android:textColor="#FF1E2A47"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:id="@+id/ls2"
+                    android:layout_width="1dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FF1E2A47"
+                    android:orientation="vertical"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/viewServicemanSkill4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text=""
+                    android:textColor="#FF1E2A47"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:id="@+id/ls3"
+                    android:layout_width="1dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FF1E2A47"
+                    android:orientation="vertical"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/viewServicemanSkill5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text=""
+                    android:textColor="#FF1E2A47"
+                    android:textSize="17dp" />
+            </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginBottom="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="20dp"
+            android:text="Address"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="19dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/viewServicemanCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+
+                android:text="Contai"
+                android:textColor="#FF1E2A47"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/viewServicemanDist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="Purba Medinipur"
+                android:textColor="#FF1E2A47"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/viewServicemanState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="West Bengal"
+                android:textColor="#FF1E2A47"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginBottom="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:text="Salary"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:id="@+id/viewServicemanSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="4dp"
+                android:text="730"
+                android:textColor="#FF1E2A47"
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="(Daily)"
+                android:textColor="#FF1E2A47"
+                android:textSize="19dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:text="Rating"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="19dp"/>
+            <RatingBar
+                android:id="@+id/ratingBarInSearchList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                style = "?android:attr/ratingBarStyleSmall"
+                android:layout_marginLeft="20dp"
+
+                android:numStars = "5"
+                android:rating   = "4"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/secondPart"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/viewServicemanMessageButton"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/gradient"
+            android:text="Message"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/viewServicemanHireButton"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Hire"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

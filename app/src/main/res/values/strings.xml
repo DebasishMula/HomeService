@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">HomeService</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="Alerts">Alerts</string>
+    <string name="Settings">Settings</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Share</string>
+    <string name="faq">FAQ</string>
+    <string name="about_us">About Us</string>
+    <string-array name="Service_field">
+        <item>Refrigerator Repairing</item>
+        <item>Electrician</item>
+        <item>Private Tutor</item>
+        <item>Plumbing</item>
+        <item>House Painting</item>c
+        <item> Carpenter</item>
+        <item>Mason</item>
+    </string-array>
+    <string-array name="Service_Place">
+        <item>Alipurduar</item>
+        <item>Asansol</item>
+        <item>Baharampur</item>
+        <item>Balurghat</item>
+        <item>Bangaon</item>
+        <item>Bankura</item>
+        <item>Bardhaman</item>
+        <item>Basirhat</item>
+        <item>Chakdaha</item>
+        <item>Cooch Behar</item>
+        <item>Contai</item>
+        <item>Dankuni</item>
+        <item>Darjeeling</item>
+        <item>Dhulian</item>
+        <item>Digha</item>
+        <item>Durgapur</item>
+        <item>English Bazar</item>
+        <item>Habra</item>
+        <item>Haldia</item>
+        <item>Jalpaiguri</item>
+        <item>Jangipur</item>
+        <item>Kharagpur</item>
+        <item>Kolkata</item>
+        <item>Krishnanagar</item>
+        <item>Medinipur</item>
+        <item>Nabadwip</item>
+        <item>Purulia</item>
+        <item>Raiganj</item>
+        <item>Ranaghat</item>
+        <item>Shantipur</item>
+        <item>Siliguri</item>
+
+    </string-array>
+</resources>

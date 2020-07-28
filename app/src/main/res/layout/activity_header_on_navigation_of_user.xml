@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/navUser"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_person" />
+    <TextView
+        android:id="@+id/userPlaceInUserHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contai"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+    <TextView
+        android:id="@+id/userNameInUserHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debasish Mula"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>

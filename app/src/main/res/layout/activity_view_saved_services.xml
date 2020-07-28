@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".AcceptAndRejectHiringRequest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="14dp"
+            android:text="Service Details"
+            android:textSize="22dp"
+            android:textColor="#FF0099CC"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="160dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="13dp"
+                android:layout_height="wrap_content"
+                android:text="Working Date"
+                android:textSize="22dp"
+                android:textColor="#FF1E2A47"
+                android:background="@drawable/buttonshape2"/>
+            <TextView
+                android:id="@+id/serviceDateInSavedServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="19dp"
+                android:text="12/11/1996"
+                android:textSize="19dp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Working Address"
+                android:textSize="22dp"
+                android:textColor="#FF1E2A47"
+                android:background="@drawable/buttonshape2"/>
+            <TextView
+                android:id="@+id/serviceAddressInSavedServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="19dp"
+                android:text="Vill-Gopalpur,PO-GopalChak,PS-Ramnagar,Dist-Purba Medinipur"
+                android:textSize="19dp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="210dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Working Description"
+                android:textSize="22dp"
+                android:textColor="#FF1E2A47"
+                android:background="@drawable/buttonshape2"/>
+            <TextView
+                android:id="@+id/serviceDescriptionInSavedServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="19dp"
+                android:text="Bla jdhsm kjhdj ngys sydh dhd gdtd iddbdjshd"
+                android:textSize="19dp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="14dp"
+            android:text="Service Provider"
+            android:textSize="22dp"
+            android:textColor="#FF0099CC"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:layout_width="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="22dp"
+                android:textColor="#FF1E2A47"
+                android:background="@drawable/buttonshape2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  :"
+                android:textColor="#ffffff"
+                android:textSize="23dp"/>
+            <TextView
+                android:id="@+id/serviceProviderNameInSavedServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="15dp"
+                android:text="Debasish Mula"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:layout_width="190dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textSize="22dp"
+                android:textColor="#FF1E2A47"
+                android:background="@drawable/buttonshape2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  :"
+                android:textColor="#ffffff"
+                android:textSize="23dp"/>
+            <TextView
+                android:id="@+id/serviceProviderPhoneNumberInSavedServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="15dp"
+                android:text="8370969887"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/deleteServiceInSavedServices"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Delete Service"
+        android:textAllCaps="false"
+        android:textColor="#FF1E2A47"
+        android:textSize="19dp" />
+
+</RelativeLayout>
